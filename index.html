@@ -8,7 +8,7 @@ title:
 <ul class="tutorials">
     {% for post in site.posts %}
         {% if post.type == "beginner" %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a> &raquo; <a href="http://thomasdavis.github.com">Thomas Davis</a></li>
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endif %}
     {% endfor %}
 </ul>
@@ -16,17 +16,24 @@ title:
 <ul class="tutorials">
     {% for post in site.posts %}
         {% if post.type == "intermediate" %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a> &raquo; <a href="http://thomasdavis.github.com">Thomas Davis</a></li>
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endif %}
     {% endfor %}
 
 </ul>
-
-<h2>Advanced</h2>
+<h2>Backbone Boilerplate</h2>
 <ul class="tutorials">
-    <li>Coming Soon</li>
+<li><a href="http://backboneboilerplate.com">Backbone Boilerplate - Using require.js with build system</a></li>
 </ul>
-<br /><br /><br />
+<h2>Demo apps!</h2>
+<ul class="tutorials">
+<li><a href="http://thomasdavis.github.com/kalei/">Kalei - A living CSS styleguide - Built with Backbone.js using these principles</a></li>
+<li><a href="http://apiengine.io">ApiEngine.io</a> (Beta) - Collaborativly build RESTful API's with automated testing and client mocking.</li>
+    <li><a href="https://github.com/alessioalex/ClientManager" alt="Sample application built with Backbone, RequireJS, Twitter Bootstrap on the client and Node.js (Express.js, Mongoose) on the server.">ClientManager</a> - Sample application built with Backbone, RequireJS, Twitter Bootstrap on the client and Node.js (Express.js, Mongoose) on the server.</li>
+    <li><a href="http://antoviaque.org/docs/tutorials/backbone-relational-tutorial/">Backbone-relational Tutorial</a> - Nested Models With Backbone.js</li>
+</ul>
+
+
 <h2>External Tutorials</h2>
 <ul class="tutorials">
     <li><a target="_blank" href="http://thomasdavis.github.com/2011/02/01/backbone-introduction.html">Backbone.js Tutorial – by noob for noobs</a></li>
